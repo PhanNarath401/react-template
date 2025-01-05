@@ -1,0 +1,111 @@
+/* Basic styling for Navbar */
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+  .container{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    position: relative;
+  }
+  .navbar {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    font-family: Roboto,sans-serif !important;
+    
+  }
+  
+  /* Align logo on the left and style it */
+  .navbar-icon {
+    height: 40px; /* Adjust the size as needed */
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  /* Center links in the navbar */
+  .navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navbar-brand:hover {
+    color: #007bff;
+  }
+  
+  /* Center navbar items */
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  /* Link styling */
+  .nav-link {
+    /* color: #333; */
+    font-family: Roboto,sans-serif !important;
+    color: #004664 !important; 
+    margin-right: 15px;
+    font-weight: 600;
+    letter-spacing: .4px;
+
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .dropdown-menu {
+    border-radius: 0;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  /* Style for search form */
+  .d-flex .form-control {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-outline-success {
+    border-color: #007bff;
+    color: #007bff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    
+    
+  }
+  
+  /* Logo and icon in search button */
+  .search-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    
+
+  }
+  

@@ -1,0 +1,112 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-user-drag: none;
+  box-sizing: border-box !important;
+  /* font-family: "Poppins"; */
+  /* font-family: 'Battambang'; */
+  /* font-family: Arial, sans-serif; */
+  /* font-family: "Khmer OS Siemreap", Arial, sans-serif; */
+  /* font-weight: 500; */
+}
+* {
+
+
+  /* color: #004664; */
+}
+html{
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  font-family:sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #ffffff; */
+  /* color: #000; */
+  /* font-family: Poppins, sans-serif, Hanuman, serif; */
+  font-family: Roboto,sans-serif;
+  letter-spacing: .8px;
+  color: #004664; 
+  font-size: 0.9rem;
+  overflow-y: auto !important;
+  /* margin-top: 130; */
+}
+
+.container{
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  position: relative;
+}
+.slidow{
+  background-color: rgba(245, 214, 245, 0.567);
+  height: 500px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.slidow h2{
+  font-size: 4rem;
+  font-family: Poppins, sans-serif, Hanuman, serif;
+  font-weight: 700;
+}
+
+.slidow button{
+  /* font-size: 2rem; */
+  
+}
+.slidow .container{
+  height: 100%;
+}
+
+.slide-image{
+  position: relative;
+}
+
+.hand_icon{
+  width: 50px;
+}
+/* .hero-image{
+} */
+.div-image{
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 300px;
+}
+.div-image img {
+    /* height: 200px; */
+    /* width: 100%; */
+    height: 100%;
+  }
+
+.product-item .text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-item  .card-title{
+  height: 50px;
+}
+.text-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
