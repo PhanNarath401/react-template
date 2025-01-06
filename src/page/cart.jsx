@@ -46,7 +46,7 @@ export const Cart = () => {
           <button
             onClick={() => {
               checkout();
-              navigate("/checkout");
+              navigate("/PayPalBox");
             }}
           >
             Checkout

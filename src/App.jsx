@@ -1,15 +1,15 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home } from './components/Home';
-import Navbar from './components/Navbar';
-import { Shop } from './page/Shop';
-import { Men } from './page/Men';
-import { Women } from './page/Women';
-import { LoginSignup } from './page/LoginSignup';
-import { Kids } from './page/Kids';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./components/Home";
+import Navbar from "./components/Navbar";
+import { Shop } from "./page/Shop";
+import { Men } from "./page/Men";
+import { Women } from "./page/Women";
+import { LoginSignup } from "./page/LoginSignup";
+import { Kids } from "./page/Kids";
 import { Cart } from "./page/cart";
+import { PayPalBox } from "./page/PayPalBox";
 import { ShopContextProvider } from "./context/shop-context";
-
 
 function App() {
   return (
@@ -27,11 +27,10 @@ function App() {
             <Route path="/login-signup" element={<LoginSignup />} />
             <Route path="/kids" element={<Kids />} />
             <Route path="/cart" element={<Cart />} />
-
+            <Route path="/PayPalBox" element={<PayPalBox />} />
           </Routes>
         </BrowserRouter>
       </ShopContextProvider>
-      
     </main>
   );
 }
